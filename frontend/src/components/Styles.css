@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4995f3;  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background-color: #ffffff;  
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 120%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #b4d4f0;  
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #4174a3; 
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #c82333;
+    cursor: pointer;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #444;
+}
+
+.loading-text {
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.no-courses {
+    font-style: italic;
+    color: #888;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #4174a3;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table button {
+    background-color: #4174a3;  /* Blue */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.table button:hover {
+    background-color: #3c6b96;
+}
+
+.table button:focus {
+    outline: none;
+}
+
+.logout-button {
+    background-color: #ff0000ab; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed; top: 20px;  
+    right: 20px;  
+    z-index: 1000; 
+}
+
+.logout-button:hover {
+    background-color: #f85050d1;
+}
+
+.logout-button:focus {
+    outline: none;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #4174a3;
+    outline: none;
+}
